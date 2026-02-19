@@ -1,0 +1,1 @@
+/give @p minecraft:diamond_helmet[minecraft:equippable={"equip_sound": "minecraft:item.armor.equip_diamond", "slot": "head"}, minecraft:item_model="finalpeak:<name>"]
