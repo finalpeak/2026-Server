@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "finalpeak:item/pirate_hat_sprite"
+  }
+}
