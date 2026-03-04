@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "finalpeak:item/propeller_hat_sprite"
+  }
+}
