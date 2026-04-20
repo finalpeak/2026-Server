@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "finalpeak:item/wizard_hat_sprite"
+    "layer0": "finalpeak:item/wizard_hat_sprite_red"
   }
 }
