@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "finalpeak:plague_hat",
+                "minecraft:item_name": "Plague Doctor's Mask",
+                "minecraft:equippable": {
+                  "slot": "head",
+                  "equip_sound": {
+                    "sound_id": "item.armor.equip_leather"
+                  }
+                }
+              },
+              "conditions": []
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:entities/warden"
+}

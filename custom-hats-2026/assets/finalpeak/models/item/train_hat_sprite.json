@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "finalpeak:item/train_hat_sprite"
+  }
+}

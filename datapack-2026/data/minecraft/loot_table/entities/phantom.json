@@ -26,8 +26,8 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_model": "finalpeak:miner_hat",
-                "minecraft:item_name": "Mining Helmet",
+                "minecraft:item_model": "finalpeak:captain_hat",
+                "minecraft:item_name": "Captain's Hat",
                 "minecraft:equippable": {
                   "slot": "head",
                   "equip_sound": {
