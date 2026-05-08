@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "finalpeak:item/fbi_hat_sprite"
+    "layer0": "finalpeak:item/police_hat_sprite"
   }
 }

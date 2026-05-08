@@ -7,13 +7,13 @@
         "when": "head",
         "model": {
           "type": "minecraft:model",
-          "model": "finalpeak:item/fbi_hat"
+          "model": "finalpeak:item/disguise_hat"
         }
       }
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "finalpeak:item/fbi_hat_sprite"
+      "model": "finalpeak:item/disguise_hat_sprite"
     }
   }
 }
