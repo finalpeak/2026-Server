@@ -12,8 +12,8 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_model": "finalpeak:propeller_hat",
-                "minecraft:item_name": "propeller_hat",
+                "minecraft:item_model": "finalpeak:animated_propeller_hat",
+                "minecraft:item_name": "Propeller Hat",
                 "minecraft:equippable": {
                   "slot": "head",
                   "equip_sound": {

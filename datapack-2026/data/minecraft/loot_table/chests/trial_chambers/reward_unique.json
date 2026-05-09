@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_model": "finalpeak:copper_goggles_hat",
+                "minecraft:item_model": "finalpeak:animated_copper_goggles_hat",
                 "minecraft:item_name": "Copper Goggles",
                 "minecraft:equippable": {
                   "slot": "head",

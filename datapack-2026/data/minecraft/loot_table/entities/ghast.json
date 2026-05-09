@@ -26,12 +26,12 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_model": "finalpeak:pilot_hat",
-                "minecraft:item_name": "Pilot's Cap",
+                "minecraft:item_model": "finalpeak:aviator_hat",
+                "minecraft:item_name": "Aviator Cap",
                 "minecraft:equippable": {
                   "slot": "head",
                   "equip_sound": {
-                    "sound_id": "item.armor.equip_iron"
+                    "sound_id": "item.armor.equip_leather"
                   }
                 }
               },
