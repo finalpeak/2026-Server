@@ -21,7 +21,7 @@
                 "minecraft:equippable": {
                   "slot": "head",
                   "equip_sound": {
-                    "sound_id": "item.armor.equip_copper"
+                    "sound_id": "item.armor.equip_leather"
                   }
                 }
               }

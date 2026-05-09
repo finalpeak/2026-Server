@@ -69,7 +69,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:leather_helmet",
+          "name": "minecraft:copper_helmet",
           "weight": 1,
           "functions": [
             {

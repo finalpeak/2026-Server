@@ -4,16 +4,40 @@
     {
       "bonus_rolls": 0.0,
       "entries": [
-       {
+        {
+          "type": "minecraft:empty",
+          "weight": 38
+        },
+        {
           "type": "minecraft:item",
           "name": "minecraft:iron_helmet",
-          "weight": 15,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_model": "finalpeak:propeller_hat",
-                "minecraft:item_name": "propeller_hat",
+                "minecraft:item_model": "finalpeak:racing_hat",
+                "minecraft:item_name": "Racing Helmet",
+                "minecraft:equippable": {
+                  "slot": "head",
+                  "equip_sound": {
+                    "sound_id": "item.armor.equip_iron"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "finalpeak:train_hat",
+                "minecraft:item_name": "Conductor's Hat",
                 "minecraft:equippable": {
                   "slot": "head",
                   "equip_sound": {
@@ -23,7 +47,13 @@
               }
             }
           ]
-        },
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
         {
           "type": "minecraft:item",
           "functions": [
@@ -37,8 +67,16 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:emerald",
-          "weight": 125
+          "name": "minecraft:gold_nugget"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dandelion",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poppy"
         },
         {
           "type": "minecraft:item",
@@ -47,47 +85,70 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:arrow",
-          "weight": 100
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 2.0,
+                "max": 7.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:iron_ingot",
-          "weight": 100
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:trial_key",
+          "name": "minecraft:potato",
           "weight": 10
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:music_disc_creator_music_box",
-          "weight": 5
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bread",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:apple",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:feather"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:emerald",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
@@ -102,9 +163,19 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:diamond",
+          "name": "minecraft:oak_sapling",
           "weight": 5
-        },
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 8.0,
+        "min": 3.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
         {
           "type": "minecraft:item",
           "functions": [
@@ -114,23 +185,15 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:emerald_block",
-          "weight": 5
+          "name": "minecraft:bundle"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:diamond_block"
+          "type": "minecraft:empty",
+          "weight": 2
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:pots/trial_chambers/corridor"
+  "random_sequence": "minecraft:chests/village/village_plains_house"
 }

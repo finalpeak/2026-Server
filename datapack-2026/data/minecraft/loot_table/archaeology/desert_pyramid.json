@@ -57,7 +57,7 @@
                 "minecraft:equippable": {
                   "slot": "head",
                   "equip_sound": {
-                    "sound_id": "item.armor.equip_netherite"
+                    "sound_id": "item.armor.equip_leather"
                   }
                 }
               }
@@ -77,7 +77,7 @@
                 "minecraft:equippable": {
                   "slot": "head",
                   "equip_sound": {
-                    "sound_id": "item.armor.equip_netherite"
+                    "sound_id": "item.armor.equip_leather"
                   }
                 }
               }
@@ -97,7 +97,7 @@
                 "minecraft:equippable": {
                   "slot": "head",
                   "equip_sound": {
-                    "sound_id": "item.armor.equip_netherite"
+                    "sound_id": "item.armor.equip_leather"
                   }
                 }
               }
@@ -117,7 +117,7 @@
                 "minecraft:equippable": {
                   "slot": "head",
                   "equip_sound": {
-                    "sound_id": "item.armor.equip_netherite"
+                    "sound_id": "item.armor.equip_leather"
                   }
                 }
               }

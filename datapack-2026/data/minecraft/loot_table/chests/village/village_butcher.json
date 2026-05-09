@@ -4,16 +4,40 @@
     {
       "bonus_rolls": 0.0,
       "entries": [
-       {
+        {
+          "type": "minecraft:empty",
+          "weight": 38
+        },
+        {
           "type": "minecraft:item",
           "name": "minecraft:iron_helmet",
-          "weight": 15,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_model": "finalpeak:propeller_hat",
-                "minecraft:item_name": "propeller_hat",
+                "minecraft:item_model": "finalpeak:racing_hat",
+                "minecraft:item_name": "Racing Helmet",
+                "minecraft:equippable": {
+                  "slot": "head",
+                  "equip_sound": {
+                    "sound_id": "item.armor.equip_iron"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "finalpeak:train_hat",
+                "minecraft:item_name": "Conductor's Hat",
                 "minecraft:equippable": {
                   "slot": "head",
                   "equip_sound": {
@@ -23,6 +47,16 @@
               }
             }
           ]
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald"
         },
         {
           "type": "minecraft:item",
@@ -37,8 +71,8 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:emerald",
-          "weight": 125
+          "name": "minecraft:porkchop",
+          "weight": 6
         },
         {
           "type": "minecraft:item",
@@ -47,47 +81,14 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:arrow",
-          "weight": 100
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 2.0,
+                "max": 3.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:iron_ingot",
-          "weight": 100
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:trial_key",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_creator_music_box",
-          "weight": 5
+          "name": "minecraft:wheat",
+          "weight": 6
         },
         {
           "type": "minecraft:item",
@@ -96,41 +97,54 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
+                "max": 3.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:diamond",
-          "weight": 5
+          "name": "minecraft:beef",
+          "weight": 6
         },
         {
           "type": "minecraft:item",
           "functions": [
             {
               "add": false,
-              "count": 1.0,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:emerald_block",
-          "weight": 5
+          "name": "minecraft:mutton",
+          "weight": 6
         },
         {
           "type": "minecraft:item",
           "functions": [
             {
               "add": false,
-              "count": 1.0,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:diamond_block"
+          "name": "minecraft:coal",
+          "weight": 3
         }
       ],
-      "rolls": 1.0
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 5.0,
+        "min": 1.0
+      }
     }
   ],
-  "random_sequence": "minecraft:pots/trial_chambers/corridor"
+  "random_sequence": "minecraft:chests/village/village_butcher"
 }
