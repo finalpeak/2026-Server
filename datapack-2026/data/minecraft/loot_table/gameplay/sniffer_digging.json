@@ -7,12 +7,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:torchflower_seeds",
-          "weight": 12
+          "weight": 25
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:pitcher_pod",
-          "weight": 12
+          "weight": 25
         },
         {
           "type": "minecraft:item",

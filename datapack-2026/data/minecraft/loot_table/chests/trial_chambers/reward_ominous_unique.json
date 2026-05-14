@@ -7,25 +7,27 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:enchanted_golden_apple",
-          "weight": 3
+          "weight": 6
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:flow_armor_trim_smithing_template",
-          "weight": 3
+          "weight": 6
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:flow_banner_pattern",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_creator",
           "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:music_disc_creator"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:heavy_core"
+          "name": "minecraft:heavy_core",
+          "weight": 2
         },
         {
           "type": "minecraft:item",

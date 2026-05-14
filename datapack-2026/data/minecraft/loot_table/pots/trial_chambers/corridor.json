@@ -7,7 +7,7 @@
        {
           "type": "minecraft:item",
           "name": "minecraft:iron_helmet",
-          "weight": 15,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_components",

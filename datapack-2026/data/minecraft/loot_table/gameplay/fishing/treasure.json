@@ -6,14 +6,17 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 3,
           "name": "minecraft:name_tag"
         },
         {
           "type": "minecraft:item",
+          "weight": 3,
           "name": "minecraft:saddle"
         },
         {
           "type": "minecraft:item",
+          "weight": 3,
           "functions": [
             {
               "add": false,
@@ -34,6 +37,7 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 3,
           "functions": [
             {
               "add": false,
@@ -54,6 +58,7 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
