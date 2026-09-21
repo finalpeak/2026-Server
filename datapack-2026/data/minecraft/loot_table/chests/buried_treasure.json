@@ -12,16 +12,16 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond_helmet",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "finalpeak:pirate_hat",
                 "minecraft:item_name": "Pirate Hat",
                 "minecraft:equippable": {
                   "slot": "head",
                   "equip_sound": {
-                    "sound_id": "item.armor.equip_leather"
+                    "sound_id": "minecraft:item.armor.equip_leather"
                   }
                 }
               }
@@ -46,7 +46,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -54,7 +54,7 @@
                 "max": 4.0,
                 "min": 1.0
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:iron_ingot",
@@ -62,7 +62,7 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -70,7 +70,7 @@
                 "max": 4.0,
                 "min": 1.0
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:gold_ingot",
@@ -78,7 +78,7 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -86,7 +86,7 @@
                 "max": 2.0,
                 "min": 1.0
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:tnt",
@@ -104,7 +104,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -112,7 +112,7 @@
                 "max": 8.0,
                 "min": 4.0
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:emerald",
@@ -120,7 +120,7 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -128,7 +128,7 @@
                 "max": 2.0,
                 "min": 1.0
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:diamond",
@@ -136,7 +136,7 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -144,7 +144,7 @@
                 "max": 5.0,
                 "min": 1.0
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:prismarine_crystals",
@@ -184,7 +184,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -192,14 +192,14 @@
                 "max": 4.0,
                 "min": 2.0
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:cooked_cod"
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -207,7 +207,7 @@
                 "max": 4.0,
                 "min": 2.0
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:cooked_salmon"
@@ -223,9 +223,9 @@
           "name": "minecraft:potion"
         }
       ],
-      "functions": [
+      "modifier": [
         {
-          "function": "minecraft:set_potion",
+          "type": "minecraft:set_potion",
           "id": "minecraft:water_breathing"
         }
       ],
@@ -244,11 +244,11 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": 1.0,
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:copper_nautilus_armor",
@@ -256,11 +256,11 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": 1.0,
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:iron_nautilus_armor",
@@ -268,11 +268,11 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": 1.0,
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:golden_nautilus_armor",
@@ -280,11 +280,11 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": 1.0,
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:diamond_nautilus_armor",

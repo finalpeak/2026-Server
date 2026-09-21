@@ -8,16 +8,16 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_helmet",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "finalpeak:animated_propeller_hat",
                 "minecraft:item_name": "Propeller Hat",
                 "minecraft:equippable": {
                   "slot": "head",
                   "equip_sound": {
-                    "sound_id": "item.armor.equip_leather"
+                    "sound_id": "minecraft:item.armor.equip_leather"
                   }
                 }
               }
@@ -26,7 +26,7 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -34,7 +34,7 @@
                 "max": 3.0,
                 "min": 1.0
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:emerald",
@@ -42,7 +42,7 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -50,7 +50,7 @@
                 "max": 8.0,
                 "min": 2.0
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:arrow",
@@ -58,7 +58,7 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -66,7 +66,7 @@
                 "max": 2.0,
                 "min": 1.0
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:iron_ingot",
@@ -74,11 +74,11 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": 1.0,
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:trial_key",
@@ -91,7 +91,7 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -99,7 +99,7 @@
                 "max": 2.0,
                 "min": 1.0
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:diamond",
@@ -107,11 +107,11 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": 1.0,
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:emerald_block",
@@ -119,11 +119,11 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": 1.0,
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:diamond_block"

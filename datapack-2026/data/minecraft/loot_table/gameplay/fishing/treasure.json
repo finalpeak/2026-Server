@@ -17,7 +17,7 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "damage": {
@@ -25,10 +25,10 @@
                 "max": 0.25,
                 "min": 0.0
               },
-              "function": "minecraft:set_damage"
+              "type": "minecraft:set_damage"
             },
             {
-              "function": "minecraft:enchant_with_levels",
+              "type": "minecraft:enchant_with_levels",
               "levels": 30.0,
               "options": "#minecraft:on_random_loot"
             }
@@ -38,7 +38,7 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "damage": {
@@ -46,10 +46,10 @@
                 "max": 0.25,
                 "min": 0.0
               },
-              "function": "minecraft:set_damage"
+              "type": "minecraft:set_damage"
             },
             {
-              "function": "minecraft:enchant_with_levels",
+              "type": "minecraft:enchant_with_levels",
               "levels": 30.0,
               "options": "#minecraft:on_random_loot"
             }
@@ -59,9 +59,9 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_with_levels",
+              "type": "minecraft:enchant_with_levels",
               "levels": 30.0,
               "options": "#minecraft:on_random_loot"
             }
@@ -76,16 +76,16 @@
           "type": "minecraft:item",
           "name": "minecraft:copper_helmet",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "finalpeak:fishing_hat",
                 "minecraft:item_name": "Old Fishing Hat",
                 "minecraft:equippable": {
                   "slot": "head",
                   "equip_sound": {
-                    "sound_id": "item.armor.equip_leather"
+                    "sound_id": "minecraft:item.armor.equip_leather"
                   }
                 }
               }

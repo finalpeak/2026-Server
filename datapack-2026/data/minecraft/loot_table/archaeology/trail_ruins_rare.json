@@ -55,16 +55,16 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:netherite_helmet",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "finalpeak:kabuto_hat",
                 "minecraft:item_name": "Kabuto",
                 "minecraft:equippable": {
                   "slot": "head",
                   "equip_sound": {
-                    "sound_id": "item.armor.equip_netherite"
+                    "sound_id": "minecraft:item.armor.equip_netherite"
                   }
                 }
               }

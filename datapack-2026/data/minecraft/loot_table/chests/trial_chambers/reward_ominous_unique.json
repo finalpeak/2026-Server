@@ -33,16 +33,16 @@
           "type": "minecraft:item",
           "name": "minecraft:netherite_helmet",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "finalpeak:spartan_hat",
                 "minecraft:item_name": "Spartan Helmet",
                 "minecraft:equippable": {
                   "slot": "head",
                   "equip_sound": {
-                    "sound_id": "item.armor.equip_netherite"
+                    "sound_id": "minecraft:item.armor.equip_netherite"
                   }
                 }
               }

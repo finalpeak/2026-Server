@@ -48,16 +48,16 @@
           "type": "minecraft:item",
           "name": "minecraft:netherite_helmet",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "finalpeak:wizard_hat_blue",
                 "minecraft:item_name": "Wizard Hat",
                 "minecraft:equippable": {
                   "slot": "head",
                   "equip_sound": {
-                    "sound_id": "item.armor.equip_leather"
+                    "sound_id": "minecraft:item.armor.equip_leather"
                   }
                 }
               }
@@ -68,16 +68,16 @@
           "type": "minecraft:item",
           "name": "minecraft:netherite_helmet",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "finalpeak:wizard_hat_green",
                 "minecraft:item_name": "Wizard Hat",
                 "minecraft:equippable": {
                   "slot": "head",
                   "equip_sound": {
-                    "sound_id": "item.armor.equip_leather"
+                    "sound_id": "minecraft:item.armor.equip_leather"
                   }
                 }
               }
@@ -88,16 +88,16 @@
           "type": "minecraft:item",
           "name": "minecraft:netherite_helmet",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "finalpeak:wizard_hat_purple",
                 "minecraft:item_name": "Wizard Hat",
                 "minecraft:equippable": {
                   "slot": "head",
                   "equip_sound": {
-                    "sound_id": "item.armor.equip_leather"
+                    "sound_id": "minecraft:item.armor.equip_leather"
                   }
                 }
               }
@@ -108,16 +108,16 @@
           "type": "minecraft:item",
           "name": "minecraft:netherite_helmet",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "finalpeak:wizard_hat_red",
                 "minecraft:item_name": "Wizard Hat",
                 "minecraft:equippable": {
                   "slot": "head",
                   "equip_sound": {
-                    "sound_id": "item.armor.equip_leather"
+                    "sound_id": "minecraft:item.armor.equip_leather"
                   }
                 }
               }
